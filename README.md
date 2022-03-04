@@ -1,8 +1,8 @@
-Zolan - Modern & Minimal Theme for Jekyll
+isaaleonardo.com - El blog personal de Isaac Leonardo M.
 ======
-Zolan is a minimal blog theme for Jekyll.
+isaaleonardo.com es mi blog personal. Está creado con la intención de crear y compartir contenido totalmente personal.
 
-* * *
+<!-- * * *
 
 Table of Contents
 -----------------
@@ -167,4 +167,4 @@ Mit License
 
 ### Support
 <p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
-<p align="center"><b>Thank you for your support ❤️</b></p>
+<p align="center"><b>Thank you for your support ❤️</b></p> -->
