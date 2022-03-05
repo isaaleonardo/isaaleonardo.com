@@ -2,7 +2,7 @@
 # General Site Settings
 title: Isaac Leonardo M.
 logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+description: El blog personal de Isaac.
 
 
 #-------------------------------
@@ -11,7 +11,7 @@ author:
   name: Isaac Leonardo M.
   image: 04.jpg
   say-hello: Hola, soy <strong>Isaac <span class='no-display'>Leonardo M.</span></strong>
-  bio: Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves music & riding his bicycle.
+  bio: Comparto dos pasiones&colon; el deporte y la tecnología. Me dedico a crear y escribir mis pensamientos y emociones, a transmitir con palabras lo que la mente no quiere callar.
 
 
 #-------------------------------
