@@ -9,7 +9,7 @@ description: El blog personal de Isaac.
 # Author Settings
 author:
   name: Isaac Leonardo M.
-  image: 04.jpg
+  image: https://i.imgur.com/pVI0Opa.png
   say-hello: Hola, soy <strong>Isaac <span class='no-display'>Leonardo M.</span></strong>
   bio: Comparto dos pasiones&colon; el deporte y la tecnología. Me dedico a crear y escribir mis pensamientos y emociones, a transmitir con palabras lo que la mente no quiere callar.
 
