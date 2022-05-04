@@ -26,7 +26,7 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   display: flex;
   flex-wrap: wrap;
   flex: 0 1 auto;
-  flex-direction: row;
+  flex-direction: row-reverse;
   box-sizing: border-box;
   margin-left: ($base-spacing-unit * -1);
   margin-right: ($base-spacing-unit * -1);
