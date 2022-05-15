@@ -31,10 +31,14 @@ Siendo consciente de esto, existe un único objetivo que puedo indicar:
 Y aunque pueda sonar idealista, lo cierto es que sin una ilusión nadie estaría motivado a hacer cosas increíbles.
 
 ## Mis Proyectos
-Los proyectos que he realizado 
+El cómo consigo lograr este propósito. De eso se trata esta sección y de lo que he realizado al pasar del tiempo.
+
+<div class="boxed" style="border-left: 8px solid #F09E2A; margin: 0 0 25px; overflow: hidden; padding: 20px; background-color: #FFE083; font-weight: bold">
+❗️ Esta información está siendo actualizada en tiempo real.
+</div>
 
 ### Mayo de 2022 - Lanzamiento de isaaleonardo.com
-Después de mucho tiempo, de meses de haber hecho la inversión para aprender cómo hacerlo, realicé el [lanzamiento de mi blog personal](https://isaaleonardo.com/lanzamiento).
+Después de mucho tiempo, de meses de haber hecho la inversión para aprender cómo hacerlo, realicé el [lanzamiento de mi blog personal]({{site.baseurl}}/lanzamiento).
 
 El porqué esto es importante para mí se trata de entender que **lo que no se comparte no existe**. Por más que realice intentos de mejorar mi carrera profesional, si no hay alguien que conozca lo que estoy haciendo, entonces no estoy creando el impacto que deseo.
 
