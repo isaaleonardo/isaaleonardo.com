@@ -17,3 +17,5 @@ Con estas letras, este cohete empezó su viaje a la luna, a Marte, a otra galaxi
 Muchas veces he leído que “se debe viajar para aprender”. Mientras se obtienen los recursos para hacer eso, esta es mi forma de viajar y, sobre todo, de aprender.
 
 En esta ocasión el pequeño paso es de la humanidad, pero el gran paso es mío y solo me queda en confiar en mí mismo y en las personas que me apoyan en el camino.
+
+Si te gustaría enterarte de lo próximo que escribiré, te invito a que me sigas en <a href="https://instagram.com/isaaleonardo" target="_blank">Instagram</a> o en <a href="https://twitter.com/isaaleonardo" target="_blank">Twitter</a>. Incluso podrías compartir el [post de Facebook](). De cualquier forma, ya me siento agradecido por que hayas leído todo hasta aquí.
