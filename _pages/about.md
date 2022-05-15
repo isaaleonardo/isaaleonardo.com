@@ -1,26 +1,41 @@
 ---
 layout: page
 title: Sobre mí
-permalink: /about/
-image: 01.jpg
+permalink: /sobre-mi/
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Las cosas no han sucedido tal como se tenían planeadas antes de ser un adulto. El mundo ha cambiado y **si la definición de éxito ya es muy particular para cada persona, es aún más difícil de obtener ahora mismo**.
 
-***
+Sobre mí podría contar muchas cosas, pero sólo contaré las que me convienen tratando de que el relato no se haga muy largo.
 
-#### Austin scenester...
-<small>2008 - 2018</small>
+---
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+## Mis Valores
+Los valores no son tolerancia, paciencia, honestidad, ni ninguna de esas virtudes que nos enseñaron en las escuelas. Realmente **los valores son las guías personales que utilizamos en busca de lo que deseamos**.
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+Por más que los valores personales van cambiando a medida que crecemos, maduramos y aprendemos, yo puedo definir a los míos de la siguiente forma:
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+- Reconocer lo que no está bajo mi control para preocuparme por lo que sí lo está.
+- Aceptar que si no existieran las dificultades, no existieran los placeres.
+- Ser egoísta no se trata de perjudicar a alguien más, sino de perjudicarte a ti mismo.
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+Y puede que al seguir esto no logre cumplir una meta rápidamente, pero, por lo que puedo conocer en estos momentos, sí hará del viaje más significativo.
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+## Mi Propósito
+**Si los valores son guías para conseguir lo que deseamos, hay que saber qué es lo que deseamos**. Como spoiler puedo decir que nunca se sabrá exactamente lo que se desea.
+
+Siendo consciente de esto, existe un único objetivo que puedo indicar:
+
+**Quiero ayudar a construir el futuro, un futuro en el que las personas vivimos en un mundo cada vez mejor**
+
+Y aunque pueda sonar idealista, lo cierto es que sin una ilusión nadie estaría motivado a hacer cosas increíbles.
+
+## Mis Proyectos
+Los proyectos que he realizado 
+
+### Mayo de 2022 - Lanzamiento de isaaleonardo.com
+Después de mucho tiempo, de meses de haber hecho la inversión para aprender cómo hacerlo, realicé el [lanzamiento de mi blog personal](https://isaaleonardo.com/lanzamiento).
+
+El porqué esto es importante para mí se trata de entender que **lo que no se comparte no existe**. Por más que realice intentos de mejorar mi carrera profesional, si no hay alguien que conozca lo que estoy haciendo, entonces no estoy creando el impacto que deseo.
+
+Esta es mi parcela en internet en la que cualquiera está bienvenido a visitar y podrá observar lo que comparto y lo que logro.
