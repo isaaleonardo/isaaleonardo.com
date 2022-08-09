@@ -18,4 +18,4 @@ Muchas veces he leído que “se debe viajar para aprender”. Mientras se obtie
 
 En esta ocasión el pequeño paso es de la humanidad, pero el gran paso es mío y solo me queda en confiar en mí mismo y en las personas que me apoyan en el camino.
 
-Si te gustaría enterarte de lo próximo que escribiré, te invito a que me sigas en <a href="https://instagram.com/isaaleonardo" target="_blank">Instagram</a> o en <a href="https://twitter.com/isaaleonardo" target="_blank">Twitter</a>. Incluso podrías compartir el <a href="https://www.facebook.com/mcisaacleonardo/posts/10228767441229506" target="_blank">post de Facebook</a>. De cualquier forma, ya me siento agradecido por que hayas leído todo hasta aquí.
+Si te gustaría enterarte de lo próximo que escribiré, te invito a que me sigas en <a href="https://instagram.com/isaaleonardo" target="_blank">Instagram</a> o en <a href="https://twitter.com/isaaleonardo" target="_blank">Twitter</a>. De cualquier forma, ya me siento agradecido por que hayas leído todo hasta aquí.
