@@ -1,6 +1,7 @@
 ---
 layout: post
 title: En un viaje por carretera te puedes encontrar muchas cosas
+description: Lo que aprendí en un viaje que trataba del reencuentro entre familiares con casi diez años sin reuniones juntos y en el que sólo hubo cosas buenas que contar
 permalink: /encontrar-viaje-carretera/
 image: https://imgur.com/G4ZpSTp.jpg
 ---

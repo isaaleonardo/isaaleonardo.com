@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lanzamiento
+description: El primer artículo que escribo para internet es comparado con el lanzamiento de un cohete al espacio encargado para una misión muy importante para la humanidad.
 permalink: /lanzamiento/
 image: https://images.unsplash.com/photo-1614728263952-84ea256f9679?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1008&q=80
 ---
