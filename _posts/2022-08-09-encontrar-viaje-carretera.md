@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sobre lo que te puedes encontrar en un viaje por carretera
+title: En un viaje por carretera te puedes encontrar muchas cosas
 permalink: /encontrar-viaje-carretera/
 image: https://imgur.com/G4ZpSTp.jpg
 ---
