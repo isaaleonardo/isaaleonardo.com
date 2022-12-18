@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 3 razones de por qué el deporte es el octavo arte
-description: Cuando se habla de arte no se suele incluir al deporte en el grupo, aunque sea una creación humana que te emociona. Aquí explico 3 razones de por qué es un arte.
 permalink: /razones-deporte-arte
 image: https://pbs.twimg.com/media/FSvTcpwXEAEdt3f?format=jpg&name=medium
 ---

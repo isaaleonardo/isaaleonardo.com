@@ -1,7 +1,6 @@
 ---
 layout: post
 title: El poder de la representación
-description: Todos necesitamos identificarnos con otras personas y sentir que podemos lograr lo mismo que ellas logran. Por eso el poder de la representación es muy grande y debemos mantenerlo.
 permalink: /poder-representacion/
 image: https://i.imgur.com/eSxSE0c.png
 ---
