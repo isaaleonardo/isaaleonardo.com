@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Lanzamiento
-permalink: /lanzamiento/
+title: Lloré y no me dolió
+permalink: /llore-no-dolio/
 image: https://images.unsplash.com/photo-1460013477427-b0cce3e30151?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 Desde hace mucho tiempo he sentido ardor en los ojos cuando salen lágrimas de ellos. Cuando lloro siento que mis lagrimas son producto de una naranja o de un limón, y no de agua como se supone.
