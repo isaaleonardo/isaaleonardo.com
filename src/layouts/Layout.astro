@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -8,6 +8,22 @@
 		<title>Isaac Leonardo M.</title>
 	</head>
 	<body>
-		<slot />
+		<div class="w-full max-w-screen-md m-auto px-10">
+			<slot />
+		</div>
 	</body>
 </html>
+
+<style is:global>
+	@font-face {
+		font-family: 'Excalifont';
+		src: url('../assets/fonts/excalifont-regular.woff2') format('woff2');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	body {
+		font-family: 'Excalifont';
+		background-color: #fffcf0;
+	}
+</style>
