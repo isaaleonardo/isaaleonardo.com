@@ -1,7 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { homePageContent } from '../config.js';
+
 ---
 
-<Layout>
+<Layout	seo={homePageContent.seo}>
 	Hola Mundo
 </Layout>
