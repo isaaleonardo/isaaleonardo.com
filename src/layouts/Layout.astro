@@ -16,6 +16,26 @@ const { seo } = Astro.props;
   </head>
 	<body>
 		<div class="w-full max-w-screen-md m-auto px-10">
+			<header>
+				<ul class="flex justify-between gap-4">
+					<li class="flex-grow flex gap-3">
+						<a href="/">Isaac Leonardo M.</a>
+						<ul class="flex gap-1">
+							<li>
+								<a href="#"><img src="./src/assets/icons/twitter.svg" alt="Twitter icon" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="./src/assets/icons/instagram.svg" alt="Instagram icon" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="./src/assets/icons/linkedin.svg" alt="LinkedIn icon" /></a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="/about">Sobre mí</a></li>
+					<li><a href="/now">Actualidad</a></li>
+				</ul>
+			</header>
 			<slot />
 		</div>
 	</body>
