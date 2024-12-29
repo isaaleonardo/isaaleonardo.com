@@ -20,7 +20,7 @@ const { seo } = Astro.props;
 		<div class="w-full max-w-screen-md mx-auto px-10 min-h-[100dvh] grid grid-rows-[auto_1fr_auto]">
 			<Header />
 			<slot />
-			<footer>
+			<footer class="text-body py-8">
 				<p>Sígueme a través de
 					<a href="#" class="hover:underline">Twitter</a>,
 					<a href="#">Instagram</a> o
@@ -46,5 +46,9 @@ const { seo } = Astro.props;
 
 	.text-header {
 		font-size: clamp(1rem, 2.5vw, 1.5rem);
+	}
+
+	.text-body {
+		font-size: clamp(.8rem, 2vw, 1.25rem);
 	}
 </style>
