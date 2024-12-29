@@ -1,4 +1,5 @@
 ---
+import Divider from "../components/Divider.astro";
 import Header from "../components/Header.astro";
 
 const { seo } = Astro.props;
@@ -20,6 +21,7 @@ const { seo } = Astro.props;
 		<div class="w-full max-w-screen-md mx-auto px-10 min-h-[100dvh] grid grid-rows-[auto_1fr_auto]">
 			<Header />
 			<slot />
+			<Divider />
 			<footer class="text-body py-8">
 				<p>Sígueme a través de
 					<a href="#" class="hover:underline">Twitter</a>,
