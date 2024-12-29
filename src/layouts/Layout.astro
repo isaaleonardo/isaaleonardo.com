@@ -1,6 +1,7 @@
 ---
 import Divider from "../components/Divider.astro";
 import Header from "../components/Header.astro";
+import Link from "../components/Link.astro";
 
 const { seo } = Astro.props;
 ---
@@ -24,15 +25,9 @@ const { seo } = Astro.props;
 			<Divider />
 			<footer class="text-body py-8">
 				<p>Sígueme a través de
-					<span class="inline-block p-1 rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm hover:bg-[#ffd8a8] transition-colors duration-300">
-						<a href="#" class="underline">Twitter</a>
-					</span>,
-					<span class="inline-block p-1 rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm hover:bg-[#ffd8a8] transition-colors duration-300">
-						<a href="#" class="underline">Instagram</a>
-					</span> o
-					<span class="inline-block p-1 rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm hover:bg-[#ffd8a8] transition-colors duration-300">
-						<a href="#" class="underline">LinkedIn</a>
-					</span>.
+					<Link href="#">Twitter</Link>,
+					<Link href="#">Instagram</Link> o
+					<Link href="#">LinkedIn</Link>.
 				</p>
 			</footer>
 		</div>
