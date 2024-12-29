@@ -17,9 +17,16 @@ const { seo } = Astro.props;
     <meta property="og:image" content="./src/assets/image.svg" />
   </head>
 	<body>
-		<div class="w-full max-w-screen-md m-auto px-10">
+		<div class="w-full max-w-screen-md mx-auto px-10 min-h-[100dvh] grid grid-rows-[auto_1fr_auto]">
 			<Header />
 			<slot />
+			<footer>
+				<p>Sígueme a través de
+					<a href="#" class="hover:underline">Twitter</a>,
+					<a href="#">Instagram</a> o
+					<a href="#">LinkedIn</a>
+				</p>
+			</footer>
 		</div>
 	</body>
 </html>
