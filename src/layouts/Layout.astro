@@ -4,7 +4,10 @@ import Divider from "../components/Divider.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-const { seo } = Astro.props;
+const { seo, frontmatter } = Astro.props;
+
+const title = seo?.title || frontmatter.title;
+const description = seo?.description || frontmatter.description;
 ---
 <!doctype html>
 <html lang="es">
@@ -14,16 +17,18 @@ const { seo } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 		<ClientRouter />
-    <title>{seo.title}</title>
-    <meta name="description" content={seo.description} />
-    <meta property="og:title" content={seo.title} />
-    <meta property="og:description" content={seo.description} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
     <meta property="og:image" content="./src/assets/image.svg" />
   </head>
 	<body>
 		<div class="w-full max-w-screen-md mx-auto px-10 min-h-[100dvh] grid grid-rows-[auto_1fr_auto]">
 			<Header />
-			<slot />
+			<div>
+				<slot />
+			</div>
 			<Divider />
 			<Footer />
 		</div>
