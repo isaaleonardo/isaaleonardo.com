@@ -1,3 +1,7 @@
+---
+import Link from "./Link.astro";
+---
+
 <header class="text-header py-8">
   <ul class="flex justify-between gap-4">
     <li class="flex-grow flex gap-3">
@@ -14,11 +18,11 @@
         </li>
       </ul>
     </li>
-    <li class="opacity-70 hover:opacity-100 transition-opacity duration-300">
-      <a href="/about">Sobre mí</a>
+    <li>
+      <Link href="/about">Sobre mí</Link>
     </li>
-    <li class="opacity-70 hover:opacity-100 transition-opacity duration-300 hidden sm:block">
-      <a href="/now">Actualidad</a>
+    <li class="hidden sm:block">
+      <Link href="/me">Actualidad</Link>
     </li>
   </ul>
 </header>
