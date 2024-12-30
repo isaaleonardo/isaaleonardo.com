@@ -25,7 +25,7 @@ const { posts, avoidedPost, numberOfPosts } = Astro.props;
         if (post.slug !== avoidedPost.slug) {
           return (
             <li class="flex gap-2">
-              <p class="opacity-70 py-1">
+              <p class="opacity-70 py-1 min-w-24">
                 {formatDate(post.data.date)}
               </p>
               <Link href={`/${post.slug}`}>
