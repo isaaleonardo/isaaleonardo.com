@@ -3,7 +3,6 @@ title: Lanzamiento
 date: 2022-05-15
 description: Este es el primer post que escribo para internet.
 ---
-# Lanzamiento
 Un cohete que llega al espacio es uno de los hitos más grandes que puede alcanzar la humanidad actualmente. Me gusta pensar en este momento exactamente como eso. Este es el primer artículo que escribo para internet.
 
 Aunque esto es un proyecto personal, si no fuera por la humanidad y su dedicación a la creación de un lenguaje, de las computadoras, del internet y de mil cosas más de las que no tengo consciencia, yo no podría haber hecho esto.
