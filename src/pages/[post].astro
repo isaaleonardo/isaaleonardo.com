@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content"
 import Layout from "../layouts/Layout.astro"
+import { formatDate } from "../utils";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts")
@@ -15,13 +16,6 @@ const post = Astro.props
 const { data } = post
 const { title, description, date } = data
 
-const formattedDate =
-  new Date(date).toLocaleDateString('es-ES', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  })
-
 const { Content } = await render(post)
 
 ---
@@ -29,7 +23,7 @@ const { Content } = await render(post)
 <Layout seo={{title, description}}>
   <main class="font-sans text-body">
     <h1>{title}</h1>
-    <p id="date" class="opacity-70">{formattedDate}</p>
+    <p id="date" class="opacity-70">{formatDate(date)}</p>
     <Content />
   </main>
 </Layout>
