@@ -1,0 +1,12 @@
+---
+import { getCollection } from "astro:content"
+import WritingList from "../components/WritingList.astro"
+import Layout from "../layouts/Layout.astro"
+
+const posts = await getCollection("posts")
+
+---
+
+<Layout seo={{title: "Escritos", description: "Escritos de Isaac Leonardo M."}}>
+  <WritingList posts={posts} avoidedPost={{}} />
+</Layout>

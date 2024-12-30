@@ -2,6 +2,8 @@
 import { getCollection, render } from "astro:content"
 import Layout from "../layouts/Layout.astro"
 import { formatDate } from "../utils";
+import Divider from "../components/Divider.astro";
+import WritingList from "../components/WritingList.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts")
@@ -12,6 +14,7 @@ export async function getStaticPaths() {
   }));
 }
 
+const posts = await getCollection("posts")
 const post = Astro.props
 const { data } = post
 const { title, description, date } = data
@@ -26,4 +29,7 @@ const { Content } = await render(post)
     <p id="date" class="opacity-70">{formatDate(date)}</p>
     <Content />
   </main>
+
+  <Divider />
+  <WritingList posts={posts} avoidedPost={post} numberOfPosts="5" />
 </Layout>
