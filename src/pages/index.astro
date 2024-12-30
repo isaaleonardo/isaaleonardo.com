@@ -13,7 +13,7 @@ const lastPost = posts[0]
 	<main>
 		<!-- Lo último -->
 		<section class="py-4">
-			<p class="text-xl opacity-70">Lo último</p>
+			<p class="text-xl opacity-70 mb-4">Lo último</p>
 			<a href={`/${lastPost.slug}`}>
 				<div class="last--post cursor-pointer">
 					<h2 class="text-2xl">
@@ -33,6 +33,23 @@ const lastPost = posts[0]
 		</section>
 
 		<Divider />
+
+		<!-- Mis otros escritos -->
+		<section class="py-4">
+			<p class="text-xl opacity-70 mb-4">Mis otros escritos</p>
+			<ul class="mb-4">
+				{posts.map((post) => (
+					<li class="flex gap-5 p-1">
+						<p class="opacity-70 min-w-44">{formatDate(post.data.date)}</p>
+						<a href={`/${post.slug}`} class="underline">{post.data.title}</a>
+					</li>
+				))}
+			</ul>
+
+			<a class="inline-block w-full opacity-70 underline underline-offset-2 cursor-pointer">
+				Ver todos →
+			</a>
+		</section>
 	</main>
 </Layout>
 
