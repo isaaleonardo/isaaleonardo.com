@@ -4,7 +4,7 @@ import Divider from '../components/Divider.astro';
 import { getCollection } from 'astro:content';
 import { homePageContent } from '../config.js';
 import { formatDate } from '../utils';
-import Link from '../components/Link.astro';
+import WritingList from '../components/WritingList.astro';
 
 const posts = await getCollection("posts")
 const lastPost = posts[0]
@@ -36,27 +36,7 @@ const lastPost = posts[0]
 		<Divider />
 
 		<!-- Mis otros escritos -->
-		<section class="py-4">
-			<p class="text-xl opacity-70 mb-4">Mis otros escritos</p>
-			<ul class="mb-4">
-				{posts.map((post) => {
-					if (post.slug !== lastPost.slug) {
-						return (
-							<li class="flex gap-1">
-								<p class="opacity-70 min-w-44 py-1">{formatDate(post.data.date)}</p>
-								<Link href={`/${post.slug}`}>
-									{post.data.title}
-								</Link>
-							</li>
-						)
-					}
-				})}
-			</ul>
-
-			<Link href="#" className="opacity-70">
-				Ver todos →
-			</Link>
-		</section>
+		<WritingList posts={posts} avoidedPost={lastPost} />
 	</main>
 </Layout>
 
