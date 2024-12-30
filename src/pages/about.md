@@ -3,7 +3,7 @@ layout: ../layouts/Layout.astro
 title: Sobre mí
 description: Este es un sitio web de prueba para ver si puedo hacer un blog con astro.
 ---
-<main class="font-sans text-body">
+<main class="text--content font-sans text-body">
 
 # Sobre mí
 Este es un sitio web de **prueba** para ver si puedo hacer un blog con astro. Este es un texto **en negrita** y este es un texto *en cursiva* y este está ~~tachado~~.

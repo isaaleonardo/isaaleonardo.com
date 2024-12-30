@@ -14,15 +14,15 @@ const lastPost = posts[0]
 		<!-- Lo último -->
 		<section class="py-4">
 			<p class="text-xl opacity-70">Lo último</p>
-			<a href={`/${lastPost.slug}`} class="no-underline">
-				<div id="last-post" class="cursor-pointer">
+			<a href={`/${lastPost.slug}`}>
+				<div class="last--post cursor-pointer">
 					<h2 class="text-2xl">
 						<span class="inline-block rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm transition-colors duration-300">
 							{lastPost.data.title}
 						</span>
 					</h2>
 					<p class="mb-0 opacity-70">{formatDate(lastPost.data.date)}</p>
-					<p class="font-sans">
+					<p class="font-sans mb-4">
 						{lastPost.data.description}
 					</p>
 					<button class="opacity-70">
@@ -37,7 +37,7 @@ const lastPost = posts[0]
 </Layout>
 
 <style>
-	#last-post:hover h2 span {
+	.last--post:hover h2 span {
 		background-color: #ffd8a8;
 	}
 </style>
