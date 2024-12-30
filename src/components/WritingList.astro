@@ -1,6 +1,17 @@
 ---
 import Link from "./Link.astro";
-import { formatDate } from "../utils";
+
+function formatDate(originalDate) {
+  // Parse the original date string into a Date object
+  const date = new Date(originalDate);
+
+  // Extract the year and month
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // Get month (0-indexed) and pad with leading zero
+
+  // Format the date as "YYYY · MM"
+  return `${year} · ${month}`;
+}
 
 const { posts, avoidedPost, numberOfPosts } = Astro.props;
 ---
@@ -13,8 +24,10 @@ const { posts, avoidedPost, numberOfPosts } = Astro.props;
       .map(post => {
         if (post.slug !== avoidedPost.slug) {
           return (
-            <li class="flex gap-1">
-              <p class="opacity-70 min-w-44 py-1">{formatDate(post.data.date)}</p>
+            <li class="flex gap-2">
+              <p class="opacity-70 py-1">
+                {formatDate(post.data.date)}
+              </p>
               <Link href={`/${post.slug}`}>
                 {post.data.title}
               </Link>
