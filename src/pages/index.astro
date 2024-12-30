@@ -1,8 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Divider from '../components/Divider.astro';
+import { getCollection } from 'astro:content';
 import { homePageContent } from '../config.js';
+import { formatDate } from '../utils';
 
+const posts = await getCollection("posts")
+const lastPost = posts[0]
 ---
 
 <Layout	seo={homePageContent.seo}>
@@ -10,20 +14,22 @@ import { homePageContent } from '../config.js';
 		<!-- Lo último -->
 		<section class="py-4">
 			<p class="text-xl opacity-70">Lo último</p>
-			<div id="last-post" class="cursor-pointer">
-				<h2 class="text-2xl">
-					<span class="inline-block rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm transition-colors duration-300">
-						Lloré y no me dolió
-					</span>
-				</h2>
-				<p class="mb-0 opacity-70">29 de diciembre de 2022</p>
-				<p class="font-sans">
-					Desde hace mucho tiempo he sentido ardor en los ojos cuando salen lágrimas de ellos.
-				</p>
-				<button class="opacity-70">
-					Continuar leyendo →
-				</button>
-			</div>
+			<a href={`/${lastPost.slug}`} class="no-underline">
+				<div id="last-post" class="cursor-pointer">
+					<h2 class="text-2xl">
+						<span class="inline-block rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm transition-colors duration-300">
+							{lastPost.data.title}
+						</span>
+					</h2>
+					<p class="mb-0 opacity-70">{formatDate(lastPost.data.date)}</p>
+					<p class="font-sans">
+						{lastPost.data.description}
+					</p>
+					<button class="opacity-70">
+						Continuar leyendo →
+					</button>
+				</div>
+			</a>
 		</section>
 
 		<Divider />
