@@ -4,6 +4,7 @@ import Divider from '../components/Divider.astro';
 import { getCollection } from 'astro:content';
 import { homePageContent } from '../config.js';
 import { formatDate } from '../utils';
+import Link from '../components/Link.astro';
 
 const posts = await getCollection("posts")
 const lastPost = posts[0]
@@ -41,14 +42,16 @@ const lastPost = posts[0]
 				{posts.map((post) => (
 					<li class="flex gap-5 p-1">
 						<p class="opacity-70 min-w-44">{formatDate(post.data.date)}</p>
-						<a href={`/${post.slug}`} class="underline">{post.data.title}</a>
+						<Link href={`/${post.slug}`}>
+							{post.data.title}
+						</Link>
 					</li>
 				))}
 			</ul>
 
-			<a class="inline-block w-full opacity-70 underline underline-offset-2 cursor-pointer">
+			<Link href="#" className="opacity-70">
 				Ver todos →
-			</a>
+			</Link>
 		</section>
 	</main>
 </Layout>

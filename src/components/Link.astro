@@ -1,7 +1,11 @@
 ---
-const { href } = Astro.props;
+const { href, className } = Astro.props;
 ---
-<span class="inline-block p-1 rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm hover:bg-[#ffd8a8] transition-colors duration-300">
+<span class={
+  `inline-block p-1 rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm hover:bg-[#ffd8a8] transition-colors duration-300
+  ${className}
+  `
+}>
   <a
     href={href}
     class="underline"
