@@ -6,35 +6,24 @@ description: Este es un sitio web de prueba para ver si puedo hacer un blog con 
 <main class="text--content font-sans text-body">
 
 # Sobre mí
-Este es un sitio web de **prueba** para ver si puedo hacer un blog con astro. Este es un texto **en negrita** y este es un texto *en cursiva* y este está ~~tachado~~.
+> En cierta ocasión en que el padre Nicanor llevó al castaño un tablero y una caja de fichas para invitarlo a jugar a las damas, José Arcadio Buendía no aceptó, según dijo, porque nunca pudo entender el sentido de una contienda entre dos adversarios que estaban de acuerdo en los principios.
 
-[Este es un link](https://astro.build)
+Mi nombre es Isaac Leonardo. Esa es la única característica que (siento que) nunca va a cambiar. Por lo demás:
 
-![Imagen de un perro](./src/assets/image.svg)
+- Alguna vez en mi vida fui estudiante del [Inces](https://inces.gob.ve/) y trabajé como asistente administrativo en [Laboratorios Vargas](https://www.laboratoriosvargas.com/), pero **eso no me convierte en asistente administrativo**.
+- Alguna vez en mi vida trabajé como operario de cine en [Cinex](https://www.cinex.com.ve/), pero **eso no me convierte en operario de cine**.
+- Alguna vez en mi vida estudié Ingeniería Mecatrónica en la [Unexpo](https://virtualunexpo.com/), pero **eso no me convierte en ingeniero**.
+- Alguna vez en mi vida trabajé como programador y, aunque sigo creando proyectos personales, **eso no me convierte en programador**.
 
-## ¿Cómo funciona? 🤔
-Este sitio web está construido con [Astro](https://astro.build) y utiliza [Tailwind CSS](https://tailwindcss.com) para el estilo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+La supervivencia nos crea la necesidad de construir una carrera, de ser un especialista, de hacer dinero, de estudiar y trabajar de algo en particular durante la mayor parte de tu vida. Por suerte, mi vida no ha sido así.
 
-## Quotes
-> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
-> 
-> Otra cosa diferente y un [enlace](https://astro.build)
-<!-- > - Una lista -->
+Mi vida es un viaje completo impulsado por el aprendizaje y el encontrar cómo usarlo para ayudar a **crear una sociedad en la que se tomen decisiones basadas en el pensamiento racional sin dejar de darle la importancia que merece al pensamiento emocional**.
 
-\- Doug Engelbart, 1961
-
-## Lists
-Este es un buen ejemplo de listas:
-
-- Uno
-  - Otra lista
-- Dos
-- Tres
+Sé que podré lograrlo de la manera en que lo hago: estudio Comunicación Social en la [Universidad Central de Venezuela](http://www.ucv.ve/) y uso todos los conocimientos que he obtenido, a pesar de no ser asistente administrativo, operario de cine, ingeniero o programador.
 
 ---
+# Acerca de este blog
+Este es mi blog personal y, ya que suelo escribir a mano, usa la fuente [Excalifont](https://plus.excalidraw.com/excalifont) para casi todos los textos. El diseño fue inspirado y basado en la página web de [Stephango](https://stephango.com/). Está creado con [Astro](https://astro.build/) y [Tailwind](https://tailwindcss.com/).
 
-1. Uno
-2. Dos
-3. Tres
 
 </main>
