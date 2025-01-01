@@ -36,6 +36,10 @@ const description = seo?.description || frontmatter.description;
 </html>
 
 <style is:global>
+	:root {
+		--block-spacing: clamp(1.25rem, 1vw , 2rem);
+	}
+
 	@font-face {
 		font-family: 'Excalifont';
 		src: url('../assets/fonts/excalifont-regular.woff2') format('woff2');
@@ -51,7 +55,7 @@ const description = seo?.description || frontmatter.description;
 	/* Post formatting styles */
 	main.text--content {
 		p {
-			margin-block-end: 1rem;
+			margin-block-end: var(--block-spacing);
 		}
 
 		h1 {
@@ -88,7 +92,7 @@ const description = seo?.description || frontmatter.description;
 
 		> ul,
 		> ol {
-			margin-block-end: 1rem;
+			margin-block-end: var(--block-spacing);
 		}
 
 		hr {
