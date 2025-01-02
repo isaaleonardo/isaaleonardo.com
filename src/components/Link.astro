@@ -1,5 +1,5 @@
 ---
-const { href, className } = Astro.props;
+const { href, className, external } = Astro.props;
 ---
 <span class={
   `inline-block p-1 rounded-bl-lg rounded-tl-3xl rounded-tr-md rounded-br-sm hover:bg-[#ffd8a8] transition-colors duration-300
@@ -9,6 +9,8 @@ const { href, className } = Astro.props;
   <a
     href={href}
     class="underline"
+    target={external ? "_blank" : ""}
+    rel={external ? "noopener noreferrer" : ""}
   >
     <slot />
   </a>
