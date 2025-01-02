@@ -22,6 +22,12 @@ const description = seo?.description || frontmatter.description;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content="./src/assets/image.svg" />
+		<script>
+			document.querySelectorAll("main a").forEach(link => {
+				link.setAttribute("target", "_blank");
+				link.setAttribute("rel", "noopener noreferrer");
+			});
+		</script>
   </head>
 	<body>
 		<div class="w-full max-w-screen-md mx-auto px-10 sm:px-2 md:px-4">
