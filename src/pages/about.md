@@ -3,7 +3,7 @@ layout: ../layouts/Layout.astro
 title: Sobre mí
 description: Este es un sitio web de prueba para ver si puedo hacer un blog con astro.
 ---
-<main class="text--content font-sans text-body">
+<main id="post" class="text--content font-sans text-body">
 
 # Sobre mí
 > En cierta ocasión en que el padre Nicanor llevó al castaño un tablero y una caja de fichas para invitarlo a jugar a las damas, José Arcadio Buendía no aceptó, según dijo, porque nunca pudo entender el sentido de una contienda entre dos adversarios que estaban de acuerdo en los principios.

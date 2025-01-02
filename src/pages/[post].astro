@@ -24,7 +24,7 @@ const { Content } = await render(post)
 ---
 
 <Layout seo={{title, description}}>
-  <main class="text--content font-sans text-body">
+  <main id="post" class="text--content font-sans text-body">
     <h1>{title}</h1>
     <p id="date" class="opacity-70">{formatDate(date)}</p>
     <Content />
