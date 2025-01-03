@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Divider from '../components/Divider.astro';
 import { getCollection } from 'astro:content';
-import { homePageContent } from '../config.js';
 import { formatDate } from '../utils';
 import WritingList from '../components/WritingList.astro';
 
@@ -10,7 +9,7 @@ const posts = await getCollection("posts")
 const lastPost = posts[0]
 ---
 
-<Layout	seo={homePageContent.seo}>
+<Layout	seo={{title: "Isaac Leonardo M.", description: "El blog personal de Isaac Leonardo M."}}>
 	<main>
 		<!-- Lo último -->
 		<section class="py-4">
