@@ -2,9 +2,10 @@
 import { getCollection } from "astro:content"
 import WritingList from "../components/WritingList.astro"
 import Layout from "../layouts/Layout.astro"
+import { sortByDateDesc } from '../utils';
 
 const posts = await getCollection("posts")
-
+const orderedPosts = sortByDateDesc(posts)
 ---
 
 <Layout seo={{title: "Escritos", description: "Escritos de Isaac Leonardo M."}}>
