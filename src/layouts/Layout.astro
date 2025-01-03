@@ -8,6 +8,7 @@ const { seo, frontmatter } = Astro.props;
 
 const title = seo?.title || frontmatter.title;
 const description = seo?.description || frontmatter.description;
+const image = "/src/assets/image.png";
 ---
 <!doctype html>
 <html lang="es">
@@ -21,11 +22,27 @@ const description = seo?.description || frontmatter.description;
 		<link rel="manifest" href="./src/assets/favicon/site.webmanifest" />
     <meta name="generator" content={Astro.generator} />
 		<ClientRouter />
-    <title>{title}</title>
-    <meta name="description" content={description} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content="./src/assets/image.svg" />
+		<!-- HTML Meta Tags -->
+		<title>{title}</title>
+		<meta name="description" content={description} />
+
+		<!-- Facebook Meta Tags -->
+		<meta property="og:url" content="https://isaaleonardo.com">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content={title}>
+		<meta property="og:description" content={description}>
+		<meta property="og:image" content={image}>
+
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:domain" content="isaaleonardo.com">
+		<meta property="twitter:url" content="https://isaaleonardo.com">
+		<meta name="twitter:title" content={title}>
+		<meta name="twitter:description" content={description}>
+		<meta name="twitter:image" content={image}>
+
+		<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
 		<script>
 			document.querySelectorAll("main#post a").forEach(link => {
 				link.setAttribute("target", "_blank");
