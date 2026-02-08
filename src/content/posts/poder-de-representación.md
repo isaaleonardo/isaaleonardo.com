@@ -1,5 +1,4 @@
 ---
-layout: post
 title: El poder de la representación
 date: 2022-11-19
 description: El mundial de Qatar 2022 empezará un día después de escribir esto y tengo pensamientos encontrados, ¿Por qué un evento que conlleva violación de derechos humanos me puede emocionar de esta forma?
