@@ -95,7 +95,7 @@ La canción también hace referencia a la Ley 22, una ley de incentivos fiscales
 
 "Se oye al jíbaro llorando, otro más que se marchó. No quería irse pa' Orlando, pero el corrupto lo echó... Y no se sabe hasta cuándo".
 
-*Nota: este artículo fue escrito en febrero de 2025 y, ante el dar de qué hablar del disco debido a haber ganado el Grammy a Álbum del Año, decidí publicarlo hoy, 8 de febrero de 2026, cuando Bad Bunny se convierte en el primer intérprete de habla hispana en encabezar el show de medio tiempo del Superbowl.*
+*Nota: este artículo fue escrito en febrero de 2025 y, ante el dar de qué hablar del disco debido a haber ganado el Grammy a Álbum del Año, decidí publicarlo hoy, 8 de febrero de 2026, cuando Bad Bunny se convierte en el primer intérprete de habla hispana en encabezar el show de medio tiempo del Super Bowl.*
 
 [^1]: https://www.bbc.com/mundo/articles/c5y8n369q7go   
 
